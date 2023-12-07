@@ -12,14 +12,25 @@ header{
 
 }
 
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
 section{
     width: auto;
-    margin: 20px; auto;
-    padding 20px;
+    margin: 20px; 
+    padding: 20px;
     background-color:palevioletred;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1)
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     border-radius: 20px;
     text-align:center;
+}
+
+img{
+    width: inherit;
+    height: auto;
 }
 
 h1, h2{
@@ -31,17 +42,4 @@ p{
     line-height: 1.9;
 }
 
-div{
-  text-align: center;
-    width: 30px;
-    
-    display: flex;
-    flex-direction: row;
-    border:3px ;
-    margin: 10px;
-    border-color:red;
-}
-image{
-    height: 20px;
-    width: auto;
-}
+
